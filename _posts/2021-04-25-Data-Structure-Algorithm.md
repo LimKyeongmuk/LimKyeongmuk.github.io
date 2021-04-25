@@ -1,14 +1,18 @@
 ---
 title: "파이썬 기초(자료구조와 알고리즘)"
-categories:(Python)Data Structure & Algorithm
+excerpt: ""
+
+categories:
+  - (Python)Data Structure & Algorithm
 tags:
   - python
   - 자료구조
   - 알고리즘
   - Data Structure
   - Algorithm
-last_modified_at: 2021-04-25 22:02:30 -0500
+last_modified_at:2021-04-25T22:06:00-05:00
 ---
+
 ## Python 기본 데이터타입
 - **문자열(str)**    "This is a string"
 - **리스트(list)**   [1, 2, 3, 4]
