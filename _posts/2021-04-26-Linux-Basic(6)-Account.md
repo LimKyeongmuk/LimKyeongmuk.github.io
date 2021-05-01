@@ -19,6 +19,7 @@ tags:
 - 계정의 계층을 나누는 이유
   - 권한을 분리하고, 접근할 수 있는 디렉터리와 파일, 프로세스를 구분
 
+
 # 02. 계정 및 그룹의 생성, 변경, 삭제
 ### user, group 관리 명령어
 - user
@@ -32,6 +33,7 @@ tags:
   - groupmod
   - groupdel
 
+
 # 03. User 교체
 ### user 교체 권한 등의 명령어
 - user 관련:
@@ -41,7 +43,7 @@ tags:
   - newgrp: (log in to a new group)새로운 그룹 변경
   - gpasswd: (group password)pw 지정
 
-# Practice1
+### Practice1
 새로운 유저 linuxser 추가하기
 > &#35; useradd -m linuxer
 - -m option: user의 home dirc를 만들어주는 기능
@@ -58,6 +60,7 @@ root user의 암호 설정
 
 team dev2라는 그룹 가입 및 그룹 패스워드 설정, 그룹 로그인
 > &#35; groupadd teamdev2
+> 
 > &#35; gpasswd teamdev2
 
 linux user에 그룹 추가
@@ -88,12 +91,17 @@ linuxer에 추가 그룹을 모두 제거할 때
 
 # Practice 2
 > &#36; whoami
+> 
 > &#36; su
+> 
 > &#35; whoami
 
 > &#36; whoami
+> 
 > &#36; su -
+> 
 > &#35; whoami
+
 - su를 그냥 사용하면 권한, 환경설정에 문제가 생길 수 있으므로 항상 su - 로 login shell로 교체하거나 sudo를 이용하는 방식을 사용하는 것이 좋음
 
 - login 시 셋팅되는 주요 환경변수 리스트
@@ -111,6 +119,7 @@ linuxer에 추가 그룹을 모두 제거할 때
   |LANG|쉘의 로케일 정보, 캐릭터 세트|
   |PS1|프롬포트 형태|
   |SHELL|현재 사용하는 쉘|
+
 
 # 04. man page와 locale
 ### man page
@@ -135,7 +144,9 @@ linuxer에 추가 그룹을 모두 제거할 때
 
 # Practice: man page
 > &#36; man su
+
 - &#60;Ctrl-alt-F3&#62;
+
 > &#36; man su
 
 ### lang 환경 변수
@@ -174,7 +185,7 @@ linuxer에 추가 그룹을 모두 제거할 때
 - localectl &#60;double tab&#62;으로 사용가능한 명령 확인 가능
 - localectl set-locale LANG=en_US.utf8
 
-###character set(encoding): putty
+### character set(encoding)
 - Unicode를 지원하는 터미널 SW
 - putty, MobaXterm
 

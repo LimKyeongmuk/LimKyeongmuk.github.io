@@ -8,7 +8,6 @@ tags:
   - UNIX
   - Linux History
 ---
-
 # 01. UNIX, Linux 역사를 배워야 하는 이유
 ### 1. 표준안(Standards)의 존재 의미를 알려줌
 - 표준화된 지식과 규격은 호환성을 높임
@@ -32,6 +31,7 @@ tags:
 - 기술의 발전 방향을 예측하고 올바른 방향으로 예측하기 위해서는 역사적, 그 배경 속 인물들의 행동이 중요
 - 기술뿐만 아니라 기술을 창조 및 개선한 사람의 행동도 중요
 
+
 # 02.Linux의 조상 UNIX의 역사, 배경
 ### Multics Project
 - GE, Bell Lab, MIT AI lab의 Mac 프로젝트 산물(1964)
@@ -44,6 +44,7 @@ tags:
 - 게임을 빠르게 돌리기 위해서 Unix 운영체제를 만들음
 - 그 이전에는 DEC 운영체제가 있었는데 Unix가 성공하면서 밀림
 - https://www.bell-labs.com/usr/dmr/www/ken-games.html
+
 
 # 03. C언어는 UNIX를 만드는 언어
 ### 새로운 프로그래밍 언어의 필요성
@@ -62,6 +63,7 @@ tags:
 - 저수준의 하드웨어 조작 가능
 - 쉬운 언어의 특성(당시에는 쉬웠음)
 
+
 # 04. C Programming Language의 국제 표준: **ISO/IEC 9899**
 ### ANSI-C(C89)
 - 1989년도 표준
@@ -74,6 +76,7 @@ tags:
 - 2011년도의 표준
 - 많이 사용되지는 않음
   
+
 # 05. UNIX의 양대산맥: SvsV, BSD와 호환성 문제
 ### AT&T Unix
 - AT&T는 통신회사로 HW/SW 사업을 하지 않았음
@@ -111,6 +114,7 @@ tags:
 |**SysV Release4**(1984)|4.4 BSD(1993)|
 - SysV Release4(SVR4)는 SysV의 표준(현대적 유닉스의 기준)
 - BSD는 소송에 휘말리게 되서 4.3에서 많이 멈춤
+
 
 # 06.POSIX: 최소한의 호환성 보장
 ### 호환성 파괴
@@ -170,6 +174,7 @@ tags:
 - POSIX라는 국제 표준이 있음에도 불구하고 SysV, OSF/1, BSD, Old Unix 등등의 업계 표준이 있기 때문에 사용자들에게 혼란을 주는 경우가 많아짐
 - XPG는 지침서일 뿐, 강제성이 없었음
 
+
 # 07. 빌게이츠(Microsoft)의 등장으로 인한 SUS 출범 
 ### 단일 표준안의 필요성
 - PC 시장에서 성공한 Microsoft사에서 Windows라는 운영체제 사용(기존에서는 MS-DOS)
@@ -194,6 +199,7 @@ tags:
 - Open System: 현대에서 API와 OS 구조가 공개되어 표준이 만들어진 시스템
 - 넓게 보면 Linux까지 포함(여기서는 역사를 다루므로 "오픈시스템=Unix"라고 생각하기)
 
+
 # 08. UNIX를 계승하지 않은 UNIX의 적통: Linux
 ### Linux Kernel
 - Linux는 임시 운영체제이었음
@@ -212,8 +218,9 @@ tags:
 - 자비로운 종신 독재자(Benevolent Dictator for Life) 칭호 부여
 
 ### BSD, Linux, AT&T(SysV)
-![]({{site.url}}/assests/images/sysV&bsd.PNG){: .align-center}
+![]({{site.url}}/assets/images/sysV&bsd.PNG){: .align-center}
 출처: http://voyager8.blogspot.kr/2008/12/unix-genealogy.html
+
 
 # 09. GNU와 Free Software Foundation
 ### GNU
@@ -233,6 +240,7 @@ tags:
 - GPL(GNU Public License) 공개 라이선스를 따르고 있음(우리 소스를 모두 보여줄테니까 너네 소스도 모두 보여줘라)
 - 상업용에서는 제약이 적은 LGPL, MIT, BSD, Apache 라이선스를 사용하기도 함
 
+
 # 10. BSD의 방계: Mac OS
 ### BSD UNIX 상황
 - 회사가 아닌 대학에서 만들었고, 외부 코드에서 왔기 때문에 라이선스 분쟁 소송에 휘말림(UNIX 이름을 못쓰게 되고, 자금 지원이 끊김)
@@ -248,6 +256,7 @@ tags:
 - SUS 이후 BSD를 계승한 OSX는 당연히 SUS 표준을 대부분 만족함
 - 생각보다 아주 최소 부분만 만족했기 때문에(애플에서 필요한 기능만 구현) 서버 시장쪽에서 채택이 잘 안됨
 - Linux 기반은 Mac OS와 쉽게 포팅 가능
+
 
 # 11. Linux의 성공 요인과 배포판: Red Hat, Debian
 ### Linux 성공 및 사이드 이펙트
@@ -317,6 +326,7 @@ tags:
   - 오드로이드
 - Gateworks(자동차, 자율주행)
 
+
 ## 12. Summary
 ### Multic로부터 UNIX 탄생(=Ken Thompson)
   - AT&T와 BSD로 갈라짐(원인과 결과 기억하기)
@@ -327,6 +337,7 @@ tags:
 ### SUS의 탄생(1~4)
   - XPG: man page는 SUS에 기초함
   - IEEE std 1003.1은 무엇인가 (POSIX 1003.1=POSIX.1)
+
 
 ## 13. Reference
 ### 공식 문서

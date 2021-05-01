@@ -26,6 +26,7 @@ tags:
 - application을 실행하는 일을 함
 - Linux는 기본적으로 **bash**라는 shell을 사용
 
+
 # 02. CLI, CUI, GUI의 차이
 ### UI(User Interface)
 - 시스템의 조작 및 통신을 위해 외부의 접속을 받아들이는 부분
@@ -61,6 +62,7 @@ tags:
 ### CLI on Linux
 - CLI 명령어를 잘 다루는 사람이 유능한 인재
 - CLI 명령어는 많이 사용해야 익숙
+
 
 # 03. Linux 사용법: login, logout
 ### Console

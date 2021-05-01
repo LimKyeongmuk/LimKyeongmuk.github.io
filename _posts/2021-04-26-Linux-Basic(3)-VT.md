@@ -31,6 +31,7 @@ tags:
 - 주의 사항, Windows에서 WSL을 사용하면 Hyper-V와 충돌나기 때문에 제거해줘야 함
 - VT 활성화에 도움이 되는 참고 영상: BlueStacks4 - PC에서 가상화(VT) 활성화하는 방법(https://youtu.be/XDeje9wjDp4)
 
+
 # 02. Preferences 해두면 좋은것
   > 1. Player
   > 2. File
