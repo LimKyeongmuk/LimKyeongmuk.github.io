@@ -218,7 +218,9 @@ tags:
 - 자비로운 종신 독재자(Benevolent Dictator for Life) 칭호 부여
 
 ### BSD, Linux, AT&T(SysV)
+
 ![]({{site.url}}/assets/images/sysV&bsd.PNG){: .align-center}
+
 출처: http://voyager8.blogspot.kr/2008/12/unix-genealogy.html
 
 
